@@ -92,12 +92,12 @@ echo "$inst" >/tmp/inst
 
 # Chiede se installare altre apps e dotfiles.
 if [ "$inst" = "VM" ]; then
-	curl https://raw.githubusercontent.com/max-matty/arch_installer/master/install_apps.sh >/tmp/install_apps.sh &&
+	curl https://raw.githubusercontent.com/max-matty/archinstaller/master/install_apps.sh >/tmp/install_apps.sh &&
 		bash /tmp/install_apps.sh
 else
 	dialog --title "Continuazione installazione" --yesno \
 		"Vuoi installare tutte le tue applicazioni e dotfiles?" \
 		10 60 &&
-		curl https://raw.githubusercontent.com/max-matty/arch_installer/master/install_apps.sh >/tmp/install_apps.sh &&
+		curl https://raw.githubusercontent.com/max-matty/archinstaller/master/install_apps.sh >/tmp/install_apps.sh &&
 		bash /tmp/install_apps.sh
 fi

@@ -7,7 +7,7 @@ apps_path="/tmp/apps.csv"
 
 # Scarica elenco delle apps
 curl https://raw.githubusercontent.com/max-matty\
-/arch_installer/master/apps.csv > $apps_path
+  /archinstaller/master/apps.csv > $apps_path
 
 if [ "$inst" != "VM" ]; then
   dialog --title "Benvenuto!" \
@@ -110,7 +110,7 @@ echo "$inst" > /tmp/inst
 
 # Scarica lo script 'install_user.sh'
 curl https://raw.githubusercontent.com/max-matty\
-/arch_installer/master/install_user.sh > /tmp/install_user.sh;
+  /archinstaller/master/install_user.sh > /tmp/install_user.sh;
 
 # Cambia utente ed esegue lo script finale
 sudo -u "$name" sh /tmp/install_user.sh
