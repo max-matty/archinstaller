@@ -47,7 +47,7 @@ fi
 
 # Dimensione swap
 if [ "$inst" = "VM" ]; then
-	size="1"
+	size="2"
 else
 	default_size="8"
 
