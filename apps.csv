@@ -5,6 +5,7 @@ essential,man-pages,Manual pages
 essential,tldr,Manual pages
 essential,fd,Find entries in Filesystem
 essential,vi,Text editor
+essential,ttf-dejavu,Font
 network,openssh,Remote login tool for SSH protocol
 network,networkmanager,Network manager
 network,network-manager-applet,Network manager Applet
@@ -18,6 +19,7 @@ tools,alsa-firmware,Sound system manager
 tools,arandr,xrandr GUI
 tools,tree,Show directory tree
 tools,xsel,Manipulate the X selection
+tools,xclip,Copy to clipboard
 tools,fzf,Command line fuzzy finder
 tools,scrot,Screenshot software
 tools,imagemagick,Image manipulation tool
