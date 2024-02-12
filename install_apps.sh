@@ -110,7 +110,7 @@ echo "$inst" > /tmp/inst
 
 # Scarica lo script 'install_user.sh'
 curl https://raw.githubusercontent.com/max-matty\
-  /archinstaller/master/install_user.sh > /tmp/install_user.sh;
+/archinstaller/master/install_user.sh > /tmp/install_user.sh;
 
 # Cambia utente ed esegue lo script finale
 sudo -u "$name" sh /tmp/install_user.sh
