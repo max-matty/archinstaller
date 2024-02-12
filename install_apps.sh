@@ -7,7 +7,7 @@ apps_path="/tmp/apps.csv"
 
 # Scarica elenco delle apps
 curl https://raw.githubusercontent.com/max-matty\
-  /archinstaller/master/apps.csv > $apps_path
+/archinstaller/master/apps.csv > $apps_path
 
 if [ "$inst" != "VM" ]; then
   dialog --title "Benvenuto!" \
